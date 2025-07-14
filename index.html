@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Wirya Syah Putra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #050505;
+            color: #e5e5e5;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-black bg-opacity-90 z-50 border-b border-green-500 border-opacity-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold neon-text">WIRYA SYAH PUTRA</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-400 hover:text-green-300 transition duration-300">About</a>
+                    <a href="#skills" class="text-gray-400 hover:text-green-300 transition duration-300">Skills</a>
+                    <a href="#certificates" class="text-gray-400 hover:text-green-300 transition duration-300">Sertifikat</a>
+                    <a href="#contact" class="text-gray-400 hover:text-green-300 transition duration-300">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button p-2 rounded-md text-green-400 hover:text-green-300 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center text-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-60 z-10"></div>
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d25005b3-9645-4836-af6b-7e86eae90a17.png" alt="Abstract dark background with glowing green digital grid and circuit board patterns" class="absolute inset-0 w-full h-full object-cover parallax" />
+        
+        <div class="max-w-5xl mx-auto px-4 relative z-20">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 neon-text">HI, I'M <span class="text-green-400 animate-pulse">WIRYA SYAH PUTRA</span></h1>
+            <p class="text-xl md:text-2xl text-green-200 max-w-2xl mx-auto mb-8 leading-relaxed">
+                Digital Craftsman | Software Engineer | Tech Enthusiast
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#certificates" class="px-6 py-3 bg-transparent border-2 border-green-400 text-green-400 rounded-full font-semibold hover:bg-green-400 hover:text-black transition duration-300 neon-glow">
+                    View My Work
+                </a>
+                <a href="#contact" class="px-6 py-3 bg-green-400 text-black rounded-full font-semibold hover:bg-green-300 transition duration-300">
+                    Contact Me
+                </a>
+            </div>
+            <div class="mt-20 animate-bounce">
+                <a href="#about" class="text-green-400">
+                    <i class="fas fa-chevron-down text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gradient-to-b from-black to-gray-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold neon-text">ABOUT ME</h2>
+                <div class="w-20 h-1 bg-green-400 mx-auto mt-4"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-10 md:mb-0 flex justify-center">
+                    <div class="relative w-64 h-64 rounded-full overflow-hidden border-4 border-green-400">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d1c70175-a061-4418-b119-09982ed42c1d.png" alt="Professional photo of Wirya Syah Putra" class="w-full h-full object-cover" />
+                        <div class="absolute inset-0 bg-green-400 opacity-10"></div>
+                    </div>
+                </div>
+                <div class="md:w-2/3 md:pl-16">
+                    <h3 class="text-2xl font-semibold mb-6 text-green-300">Who am I?</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        I'm a passionate developer with over 5 years of experience in creating digital solutions. My expertise spans across web development, mobile applications, and system architecture. I believe in writing clean, efficient code and creating intuitive user experiences.
+                    </p>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or mentoring aspiring developers. My goal is to build tools that make people's lives easier while pushing the boundaries of what's possible with technology.
+                    </p>
+                    <div class="flex flex-wrap gap-4 mt-8">
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
+                            <span class="text-gray-300">Fullstack Development</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
+                            <span class="text-gray-300">UI/UX Design</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
+                            <span class="text-gray-300">DevOps</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
+                            <span class="text-gray-300">Technical Leadership</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-black">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold neon-text">KEAHLIAN SAYA</h2>
+                <div class="w-20 h-1 bg-green-400 mx-auto mt-4"></div>
+                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
+                    Saya memiliki keterampilan teknis dan sertifikasi dalam bidang teknologi.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <!-- Skill 1 -->
+                <div class="skill-card p-6 bg-gray-900 rounded-lg text-center border border-gray-800 hover:border-green-400 transition duration-300">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-black flex items-center justify-center border border-green-400">
+                        <i class="fas fa-laptop text-4xl text-green-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-300 mb-2">Bongkar Pasang Laptop</h3>
+                    <p class="text-gray-400">Sertifikasi</p>
+                </div>
+                
+                <!-- Skill 2 -->
+                <div class="skill-card p-6 bg-gray-900 rounded-lg text-center border border-gray-800 hover:border-green-400 transition duration-300">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-black flex items-center justify-center border border-green-400">
+                        <i class="fas fa-project-diagram text-4xl text-green-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-300 mb-2">Manajemen Proyek</h3>
+                    <p class="text-gray-400">Sertifikasi</p>
+                </div>
+                
+                <!-- Skill 3 -->
+                <div class="skill-card p-6 bg-gray-900 rounded-lg text-center border border-gray-800 hover:border-green-400 transition duration-300">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-black flex items-center justify-center border border-green-400">
+                        <i class="fas fa-chart-bar text-4xl text-green-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-300 mb-2">Analisis Data</h3>
+                    <p class="text-gray-400">Sertifikasi</p>
+                </div>
+                
+                <!-- Skill 4 -->
+                <div class="skill-card p-6 bg-gray-900 rounded-lg text-center border border-gray-800 hover:border-green-400 transition duration-300">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-black flex items-center justify-center border border-green-400">
+                        <i class="fas fa-check-circle text-4xl text-green-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-300 mb-2">Quality Control Laptop</h3>
+                    <p class="text-gray-400">Sertifikasi</p>
+                </div>
+                
+                <!-- Skill 5 -->
+                <div class="skill-card p-6 bg-gray-900 rounded-lg text-center border border-gray-800 hover:border-green-400 transition duration-300">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-black flex items-center justify-center border border-green-400">
+                        <i class="fas fa-certificate text-4xl text-green-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-300 mb-2">Sertifikasi Projek</h3>
+                    <p class="text-gray-400">Sertifikasi</p>
+                </div>
+                
+                <!-- Skill 6 -->
+                <div class="skill-card p-6 bg-gray-900 rounded-lg text-center border border-gray-800 hover:border-green-400 transition duration-300">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-black flex items-center justify-center border border-green-400">
+                        <i class="fab fa-aws text-4xl text-green-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-300 mb-2">AWS</h3>
+                    <p class="text-gray-400">Intermediate</p>
+                </div>
+                
+                <!-- Skill 7 -->
+                <div class="skill-card p-6 bg-gray-900 rounded-lg text-center border border-gray-800 hover:border-green-400 transition duration-300">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-black flex items-center justify-center border border-green-400">
+                        <i class="fab fa-docker text-4xl text-green-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-300 mb-2">Docker</h3>
+                    <p class="text-gray-400">Intermediate</p>
+                </div>
+                
+                <!-- Skill 8 -->
+                <div class="skill-card p-6 bg-gray-900 rounded-lg text-center border border-gray-800 hover:border-green-400 transition duration-300">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-black flex items-center justify-center border border-green-400">
+                        <i class="fab fa-git-alt text-4xl text-green-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-300 mb-2">Git</h3>
+                    <p class="text-gray-400">Expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-20 bg-gray-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold neon-text">SERTIFIKAT</h2>
+                <div class="w-20 h-1 bg-green-400 mx-auto mt-4"></div>
+                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
+                    Here are some of my certifications that showcase my skills and knowledge.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Certificate 1 -->
+                <div class="project-card bg-gray-800 rounded-lg overflow-hidden transition duration-500">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="https://placehold.co/600x400" alt="Certificate of Completion for Course 1" class="w-full h-full object-cover" />
+                        <div class="absolute inset-0 bg-green-400 opacity-0 hover:opacity-10 transition duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-green-300">Certificate in Web Development</h3>
+                        <p class="text-gray-300 mb-4">Completed a comprehensive course on web development.</p>
+                    </div>
+                </div>
+                
+                <!-- Certificate 2 -->
+                <div class="project-card bg-gray-800 rounded-lg overflow-hidden transition duration-500">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="https://placehold.co/600x400" alt="Certificate of Completion for Course 2" class="w-full h-full object-cover" />
+                        <div class="absolute inset-0 bg-green-400 opacity-0 hover:opacity-10 transition duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-green-300">Certificate in Data Analysis</h3>
+                        <p class="text-gray-300 mb-4">Gained skills in data analysis and visualization.</p>
+                    </div>
+                </div>
+                
+                <!-- Certificate 3 -->
+                <div class="project-card bg-gray-800 rounded-lg overflow-hidden transition duration-500">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="https://placehold.co/600x400" alt="Certificate of Completion for Course 3" class="w-full h-full object-cover" />
+                        <div class="absolute inset-0 bg-green-400 opacity-0 hover:opacity-10 transition duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-green-300">Certificate in Project Management</h3>
+                        <p class="text-gray-300 mb-4">Learned essential project management skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-black">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold neon-text">CONTACT</h2>
+                <div class="w-20 h-1 bg-green-400 mx-auto mt-4"></div>
+                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
+                    Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row gap-12">
+                <div class="md:w-1/2">
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-gray-300 mb-2">Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg focus:border-green-400 focus:outline-none text-gray-300">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-300 mb-2">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg focus:border-green-400 focus:outline-none text-gray-300">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-gray-300 mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg focus:border-green-400 focus:outline-none text-gray-300">
+                        </div>
+                        <div>
+                            <label for=" message" class="block text-gray-300 mb-2">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg focus:border-green-400 focus:outline-none text-gray-300"></textarea>
+                        </div>
+                        <button type="submit" class="w-full px-6 py-3 bg-green-400 text-black rounded-full font-semibold hover:bg-green-300 transition duration-300">Send Message</button>
+                    </form>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex flex-col space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-green-400"></i>
+                            <span class="ml-2 text-gray-300">Your Address Here</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone-alt text-green-400"></i>
+                            <span class="ml-2 text-gray-300">+123 456 7890</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-green-400"></i>
+                            <span class="ml-2 text-gray-300">your.email@example.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
